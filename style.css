@@ -1,0 +1,30 @@
+ul.nav
+{
+	list-style-type: none;
+	margin: 0;
+	width: 100%;
+	height: 5em;
+	padding: .125em;
+	background-color: #0d0d0d;
+}
+		li
+		{
+			list-style: none;
+			margin: .625em;
+			padding: 0;
+			float: left;
+			border-right: 1px solid white;
+		}
+			li a
+			{
+				display: block;
+				background-color: #878787;
+				color: #df0000;
+				text-align: center;
+				padding: 20px 200px;
+				text-decoration: none;
+			}
+					li a:hover
+					{
+						background-color: grey;
+					}
