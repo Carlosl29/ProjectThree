@@ -1,10 +1,13 @@
-body{
+.index{
 		font-family: 'Roboto', sans-serif;
 		color: white;
 		background-color: black;
 		background-image: url("images/wallpaper.jpg");
 		background-size: cover;
 		background-repeat: 	no-repeat;	
+}
+.indexTitle{
+	text-align: center;
 }
 
 .nav{
@@ -21,7 +24,7 @@ body{
     display: block;
     color: red;
     text-align: center;
-    padding: 14px 10em;
+    padding: 14px 3em;
     text-decoration: none;
 }
 .nav li a:hover {
@@ -35,6 +38,18 @@ section.indexBody{
 		border-width: 5px;
 		border-left-color: red;
     padding: .9375em;
-    border-image: url("images/starWarsRebel.png") 20% round;
-
+    background-color: grey;
+		height: auto;
+		border-radius: 5%;
 }
+
+.indexImage{
+	float: right;
+	padding-left: auto;
+	margin-left: 2em;
+	border-width: .5em;
+	border-style: ridge;
+	border-color: red;
+}
+
+
