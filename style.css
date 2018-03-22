@@ -29,6 +29,11 @@ body{
     color: black;
 }
 
-.indexTitle{
+section.indexBody{
+		border: .625em solid transparent;
+		border-left-style: solid;
+		border-width: 5px;
+    padding: .9375em;
+    border-image: url("images/starWarsRebel.png") 20% round;
 
 }
