@@ -69,19 +69,26 @@ section.indexBody{
 
 .resumeHeading{
 	color: #009cfb;
-	padding-left: .5em;
+	text-align: center;
 }
 p{
 	color: #09c70c;
 	padding-left: .5em;
+	font-size: 12px;
 }
 h4{
 	color: #009cfb;
 	padding-left: .5em;
+	font-size: 18px;
 }
 .resumeProfile p{
 	color: #09c70c;
 }
-.resumeSkills{
-
+.resumeSkills ul{
+	color: #09c70c;
+	font-size: 12px;
+}
+.resumeExp{
+	border-style: dotted;
+	border-width: .25em;
 }
