@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #4b4b4b;
 }
 .nav li{
     float: left;
@@ -53,3 +53,35 @@ section.indexBody{
 }
 
 
+.resume{
+
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		background-color: black;
+		background-image: url("images/gentleman.jpg");
+		background-size: cover;
+		background-repeat: 	no-repeat;	
+		border-style: solid;
+		border-width: .25em;
+		border-color: white;
+		padding-bottom: 1em;
+}
+
+.resumeHeading{
+	color: #009cfb;
+	padding-left: .5em;
+}
+p{
+	color: #09c70c;
+	padding-left: .5em;
+}
+h4{
+	color: #009cfb;
+	padding-left: .5em;
+}
+.resumeProfile p{
+	color: #09c70c;
+}
+.resumeSkills{
+
+}
