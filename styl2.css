@@ -1,19 +1,47 @@
-.uList {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: black;
+  background-size: cover;
+background-repeat:  no-repeat;  
 }
 
-.index li {
-    float: left;
+
+.navigation{
+  position: sticky;
+  text-align: center;
 }
 
-.index li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navigation h2{
+  text-align: center;
+}
+.navigation h3{
+  text-align: center;
+}
+
+.uList{
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  overflow: hidden;
+  background-color: grey;
+  position: sticky;
+  text-align: center;
+}
+.uList li{
+  float: left;
+  border-bottom: 1px solid red;
+  width: 23%;
+
+}
+.uList li a{
+  display: block;
+  color: red;
+  text-align: center;
+  padding: .75em 1em;
+  text-decoration: none;
+}
+.uList li a:hover {
+  background-color: #c30000;
+  color: black;
 }

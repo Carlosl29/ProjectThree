@@ -8,39 +8,53 @@
 }
 .indexTitle{
 	text-align: center;
+	color: red;
 }
 
-.nav{
+.name{
+	text-align: center;
+	margin-right: 2.5%;
+}
+
+.navigation 
+
+.uList{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
     overflow: hidden;
-    background-color: #4b4b4b;
+    background-color: grey;
+ 	position: sticky;
+ 	text-align: center;
 }
-.nav li{
+.uList li{
     float: left;
+    border-bottom: 1px solid red;
+   	width: 23%;
+
 }
-.nav li a{
+.uList li a{
     display: block;
     color: red;
     text-align: center;
-    padding: .875em 3em;
+    padding: .75em 1em;
     text-decoration: none;
 }
-.nav li a:hover {
+.uList li a:hover {
     background-color: #c30000;
     color: black;
 }
 
+
 section.indexBody{
-		border: .625em solid transparent;
-		border-left-style: solid;
-		border-width: .3125em;
-		border-left-color: red;
+	border: .625em solid transparent;
+	border-left-style: solid;
+	border-width: .3125em;
+	border-left-color: red;
     padding: .9375em;
     background-color: grey;
-		height: auto;
-		border-radius: 5%;
+	height: auto;
+	border-radius: 5%;
 }
 
 .indexImage{
