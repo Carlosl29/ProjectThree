@@ -144,10 +144,16 @@ section{
 }
 
 .bonus{
+  margin-top: 5px;
+  margin-bottom: 5px;
   background-image: url("images/food.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
+}
+
+.bonus p{
+  background-color: grey;
 }
 
 .bonusCooking{
@@ -159,10 +165,33 @@ section{
   padding-left: 15%;
 }
 
-.bonusCooking p{
-  background: grey;
+.bonusCooking img{
+  width: 30em;
 }
 
-.bonusCooking img{
-  width: 50em;
+.bonusTech{
+  border-radius: 1px;
+  border: 2px solid #d0d0d0;
+  height: auto;
+  width: auto;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.bonusMusic{
+  border-radius: 1px;
+  border: 2px solid #d0d0d0;
+  height: auto;
+  width: auto;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.bonusMusic img{
+  padding-left: 25%;
+  height: 30em;
+}
+
+audio{
+  padding-left: 35%;
 }
