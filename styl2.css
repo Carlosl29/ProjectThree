@@ -144,6 +144,18 @@ section{
 }
 
 .bonus{
-  background-image: url(\images\food.jpg);
-  text-align: center;
+  background-image: url("images/food.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+.bonusCooking{
+  border-radius: 1px;
+  border: 2px solid #d0d0d0;
+  height: auto;
+  width: auto;
+  padding-right: 15%;
+  padding-left: 15%;
+  background: grey;
 }
