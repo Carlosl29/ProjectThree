@@ -1,0 +1,122 @@
+.index{
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		background-color: black;
+		background-image: url("images/wallpaper.jpg");
+		background-size: cover;
+		background-repeat: 	no-repeat;	
+}
+.indexTitle{
+	text-align: center;
+	color: red;
+}
+
+.name{
+	text-align: center;
+	margin-right: 2.5%;
+}
+
+.navigation 
+
+.uList{
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;
+    background-color: grey;
+ 	position: sticky;
+ 	text-align: center;
+}
+.uList li{
+    float: left;
+    border-bottom: 1px solid red;
+   	width: 23%;
+
+}
+.uList li a{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: .75em 1em;
+    text-decoration: none;
+}
+.uList li a:hover {
+    background-color: #c30000;
+    color: black;
+}
+
+
+section.indexBody{
+	border: .625em solid transparent;
+	border-left-style: solid;
+	border-width: .3125em;
+	border-left-color: red;
+    padding: .9375em;
+    background-color: grey;
+	height: auto;
+	border-radius: 5%;
+}
+
+.indexImage{
+	float: right;
+	margin-left: 2em;
+	padding-left: 1em;
+	border-width: .5em;
+	border-style: ridge;
+	border-color: red;
+}
+
+
+.resume{
+
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		background-color: black;
+		background-image: url("images/gentleman.jpg");
+		background-size: cover;
+		background-repeat: 	no-repeat;	
+		border-style: solid;
+		border-width: .25em;
+		border-color: white;
+		padding-bottom: 1em;
+}
+
+.resumeHeading{
+	color: #009cfb;
+	text-align: center;
+}
+p{
+	color: #09c70c;
+	padding-left: .5em;
+	font-size: .75em;
+}
+
+h4{
+	color: #009cfb;
+	padding-left: .5em;
+	font-size: 1.125em;
+}
+.resumeProfile p{
+	color: #09c70c;
+}
+.resumeSkills ul{
+	color: #09c70c;
+	font-size: .75em;
+}
+
+.resumeExp{
+	border-style: dotted;
+	border-width: .25em;
+	margin-left: .5em;
+}
+.resumeExp ul{
+	margin-left: .5em;
+	color: #09c70c;
+}
+
+.bonus{
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		background-color: black;
+		
+}
