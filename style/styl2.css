@@ -92,6 +92,23 @@ section{
   height: auto;
   width: auto;
 }
+#myPlace{
+    margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  padding-right: 10%;
+  padding-left: 2%;
+  border-radius: 1px;
+  border: 2px solid red;
+  height: auto;
+  width: auto;
+}
+#map{
+  width:60%;
+  margin-left: 20%;
+  margin-top: 1%;
+  height: 60em;
+}
 
 .resume{
   display: grid;
@@ -205,10 +222,3 @@ audio{
   padding-left: 35%;
 }
 
-#map{
-  width:60%;
-  margin-left: 20%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  height: 60em;
-}
